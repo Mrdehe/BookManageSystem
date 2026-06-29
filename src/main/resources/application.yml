@@ -1,0 +1,12 @@
+spring:
+    application:
+        name: BookManageSystem
+    datasource:
+        url: jdbc:mysql://localhost:3306/booksystem?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&useSSL=false&allowPublicKeyRetrieval=true
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        username: root
+        password: Cupk@010111
+
+mybatis-plus:
+    configuration:
+        log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
